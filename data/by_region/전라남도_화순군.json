@@ -19,5 +19,40 @@
       "제공기관코드": "5825000",
       "제공기관명": "전남광주통합특별시 광산구"
     }
+  ],
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2026-05-07",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "공동주택 및 마을별 쓰레기집하장",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "물기를 꽉 짜서 최대한 수분을 제거하여 음식물쓰레기통에 납부칩을 부착후 배출 또는 음식물류 종량기(RFID) 이용",
+      "LAST_MDFCN_PNT": "2026-05-07 13:50:32",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "환경과",
+      "MNG_DEPT_TELNO": "061-379-3614",
+      "MNG_NO": "202258550000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "5855000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출",
+      "SGG_NM": "화순군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "09:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍·면·행정복지센터에배출신고 후 발급받은 스티커를 부착하여 지정된 장소에 배출 또는 '빼기' 어플 이용 접수",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "쓰레기 배출장소",
+      "UNCLLT_DAY": "공휴일"
+    }
   ]
 }

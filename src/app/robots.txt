@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /favicon.ico
+
+Sitemap: https://dongne-info.vercel.app/sitemap.xml
+
+#DaumWebMasterTool:61ece33349179b95f4362135fc656754f83274cddc8ca67cf6301b517a6fdd7e:7FHGSqvkpp5m21kM8rOvAQ==

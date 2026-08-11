@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,16 +13,53 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// TODO: 실제 도메인이 정해지면 교체 (metadataBase, sitemap.ts의 baseUrl도 같이)
-const SITE_URL = "https://dongne-info.example.com";
+const TITLE = `${SITE_NAME} | 재활용 쓰레기 버리는 날 · 종량제봉투`;
+const DESCRIPTION =
+  "전국 시군구별 재활용·음식물·일반쓰레기 배출 요일과 시간, 종량제봉투 판매소 위치를 확인하세요.";
 
 export const metadata: Metadata = {
-  title: "우리동네 생활정보 | 재활용 쓰레기 버리는 날 · 종량제봉투",
-  description:
-    "전국 시군구별 재활용·음식물·일반쓰레기 배출 요일과 시간, 종량제봉투 판매소 위치를 확인하세요.",
+  title: TITLE,
+  description: DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
+  verification: {
+    google: "af42lhPhv8s-htTu4oTIBne9w1WaCT-QEl3jOqucBnU",
+    other: {
+      "naver-site-verification": "7eccf7055ff44ecceff0dc52b9fce9e442639eb1",
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: SITE_URL,
+  description: DESCRIPTION,
+  inLanguage: "ko-KR",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -30,9 +68,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white text-zinc-900 dark:bg-black dark:text-zinc-50">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col bg-[var(--background)] text-[var(--foreground)]">
         {children}
-        <footer className="mt-auto border-t border-zinc-200 px-4 py-6 text-center text-xs text-zinc-500 dark:border-zinc-800">
+        <footer className="mt-auto border-t-4 border-green bg-white px-4 py-6 text-center text-base text-zinc-600">
           데이터 출처: 행정안전부 생활쓰레기배출정보 조회서비스, 전국종량제봉투판매소표준데이터
           (공공데이터포털)
         </footer>

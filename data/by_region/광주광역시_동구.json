@@ -38,5 +38,40 @@
       "제공기관코드": "5825000",
       "제공기관명": "전남광주통합특별시 광산구"
     }
+  ],
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2026-05-19",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물전용용기에 담아 배출",
+      "LAST_MDFCN_PNT": "2026-05-19 09:21:43",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 매일",
+      "MNG_DEPT_NM": "환경청소과",
+      "MNG_DEPT_TELNO": "062-608-2502",
+      "MNG_NO": "202058050000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "5805000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 매일 배출",
+      "SGG_NM": "동구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "종량제봉투에 담아서 문전",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "전남광주통합특별시 위생매립시설",
+      "UNCLLT_DAY": "일요일+공휴일"
+    }
   ]
 }

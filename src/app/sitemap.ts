@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllRegionSummaries } from "@/lib/regions";
-
-// TODO: layout.tsx의 SITE_URL과 함께 실제 도메인으로 교체
-const baseUrl = "https://dongne-info.example.com";
+import { SITE_URL as baseUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const regions = getAllRegionSummaries();
