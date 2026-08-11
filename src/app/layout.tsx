@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
@@ -89,6 +90,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             (공공데이터포털) · 지도: @svg-maps/south-korea (CC BY 4.0)
           </p>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
