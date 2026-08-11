@@ -4,9 +4,16 @@ import { useMemo, useState } from "react";
 import type { BagStore } from "@/lib/regions";
 
 function extractDong(address: string): string {
-  // 주소 끝의 "(광명동)", "(철산동)" 같은 괄호 안 동/읍/면 이름을 추출
+  // 주소 끝 괄호 안에는 "(광명동)"처럼 깔끔한 경우도 있지만
+  // "(견소동, 송정해변신도브래뉴아파트)"처럼 동 이름 뒤에 건물명이 붙거나
+  // "(상가동 104호)"처럼 동과 무관한 상가 표시가 오는 경우도 많다.
+  // 괄호 안 첫 콤마 앞 토큰에서, 진짜 행정동 이름처럼 보이는 앞부분만 뽑는다
+  // (너무 길게 매칭되면 "OO상가동"처럼 건물명을 동 이름으로 오인하니 4자로 제한).
   const match = address.match(/\(([^)]+)\)\s*$/);
-  return match ? match[1] : "기타";
+  if (!match) return "기타";
+  const first = match[1].split(",")[0].trim();
+  const dongMatch = first.match(/^[가-힣0-9]{1,4}(동|읍|면|리|가)/);
+  return dongMatch ? dongMatch[0] : "기타";
 }
 
 function naverMapUrl(store: BagStore) {
@@ -77,10 +84,10 @@ export default function BagStoreList({ stores }: { stores: BagStore[] }) {
             >
               <button
                 onClick={() => setOpenDong(openDong === dong ? null : dong)}
-                className="flex w-full cursor-pointer items-center justify-between px-4 py-3 text-left hover:bg-yellow-light/40"
+                className="flex w-full cursor-pointer items-center justify-between gap-3 px-4 py-3 text-left hover:bg-yellow-light/40"
               >
-                <span className="text-lg font-bold text-zinc-900">{dong}</span>
-                <span className="text-base text-zinc-500">
+                <span className="break-words text-lg font-bold text-zinc-900">{dong}</span>
+                <span className="shrink-0 text-base text-zinc-500">
                   {list.length}곳 {isOpen ? "▲" : "▼"}
                 </span>
               </button>

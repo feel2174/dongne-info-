@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 // Import as unknown and cast to a minimal local shape instead.
 import southKoreaRaw from "@svg-maps/south-korea";
 import type { RegionSummary } from "@/lib/regions";
+import RegionSearch from "@/components/RegionSearch";
 
 interface SvgMapLocation {
   id: string;
@@ -43,6 +44,7 @@ const ID_TO_SIDO: Record<string, string> = {
 
 export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
   const [selectedSido, setSelectedSido] = useState<string | null>(null);
+  const [hoveredSido, setHoveredSido] = useState<string | null>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
   const bySido = new Map<string, RegionSummary[]>();
@@ -61,11 +63,18 @@ export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
 
   return (
     <div>
+      {/* 지도 위 고정 공간 — hover된 지역명을 여기 표시해서 지도 자체가
+          커서를 따라다니는 툴팁 없이도 어느 지역인지 알 수 있게 함.
+          항상 같은 높이를 차지해서 레이아웃 시프트가 없음 */}
+      <div className="flex h-10 items-center justify-center rounded-lg bg-white text-lg font-bold text-green-dark">
+        {hoveredSido ?? "지역에 마우스를 올려보세요"}
+      </div>
+
       <svg
         viewBox={southKorea.viewBox}
         role="img"
         aria-label="대한민국 지도"
-        className="mx-auto w-full max-w-md"
+        className="mx-auto mt-2 w-full max-w-md"
       >
         {southKorea.locations.map((loc) => {
           const sido = ID_TO_SIDO[loc.id];
@@ -77,6 +86,8 @@ export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
               key={loc.id}
               d={loc.path}
               onClick={() => available && setSelectedSido(isSelected ? null : sido)}
+              onMouseEnter={() => setHoveredSido(sido ?? loc.name)}
+              onMouseLeave={() => setHoveredSido(null)}
               className={[
                 "stroke-white transition-colors",
                 !available
@@ -96,6 +107,10 @@ export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
       <p className="mt-4 text-center text-base text-zinc-500">
         회색 지역은 아직 데이터가 준비되지 않았어요. 초록/노랑 지역을 눌러보세요.
       </p>
+
+      <div className="mt-6">
+        <RegionSearch regions={regions} />
+      </div>
 
       {selectedSido && (
         <div

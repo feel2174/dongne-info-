@@ -1,5 +1,4 @@
 import { getAllRegionSummaries } from "@/lib/regions";
-import RegionSearch from "@/components/RegionSearch";
 import KoreaMap from "@/components/KoreaMap";
 
 export default function Home() {
@@ -14,15 +13,11 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-6">
-        <RegionSearch regions={regions} />
-      </div>
-
-      <div className="mt-10">
+      <div className="mt-8">
         <h2 className="text-center text-2xl font-bold text-green-dark">
           지역을 눌러보세요
         </h2>
-        <div className="mt-6">
+        <div className="mt-4">
           <KoreaMap regions={regions} />
         </div>
       </div>
