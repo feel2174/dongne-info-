@@ -17,9 +17,10 @@ function extractDong(address: string): string {
 }
 
 function naverMapUrl(store: BagStore) {
+  // 상호명까지 같이 넣으면 정부 데이터의 표기와 네이버 POI 이름이 달라서
+  // 검색이 아예 안 잡히는 경우가 많다. 주소만으로 검색한다.
   const address = store.소재지도로명주소 || store.소재지지번주소 || "";
-  const query = `${store.판매소명} ${address}`.trim();
-  return `https://map.naver.com/p/search/${encodeURIComponent(query)}`;
+  return `https://map.naver.com/p/search/${encodeURIComponent(address)}`;
 }
 
 export default function BagStoreList({ stores }: { stores: BagStore[] }) {
@@ -86,7 +87,7 @@ export default function BagStoreList({ stores }: { stores: BagStore[] }) {
                 onClick={() => setOpenDong(openDong === dong ? null : dong)}
                 className="flex w-full cursor-pointer items-center justify-between gap-3 px-4 py-3 text-left hover:bg-yellow-light/40"
               >
-                <span className="break-words text-lg font-bold text-zinc-900">{dong}</span>
+                <span className="min-w-0 break-words text-lg font-bold text-zinc-900">{dong}</span>
                 <span className="shrink-0 text-base text-zinc-500">
                   {list.length}곳 {isOpen ? "▲" : "▼"}
                 </span>
@@ -102,7 +103,7 @@ export default function BagStoreList({ stores }: { stores: BagStore[] }) {
                         rel="noopener noreferrer"
                         className="block cursor-pointer px-4 py-3 hover:bg-yellow-light/40"
                       >
-                        <p className="text-base font-bold text-zinc-900">
+                        <p className="break-words text-base font-bold text-zinc-900">
                           {s.판매소명}{" "}
                           <span
                             className={
@@ -114,12 +115,12 @@ export default function BagStoreList({ stores }: { stores: BagStore[] }) {
                             {s.영업상태명}
                           </span>
                         </p>
-                        <p className="mt-1 text-sm text-zinc-500">
+                        <p className="mt-1 break-words text-sm text-zinc-500">
                           {s.소재지도로명주소 || s.소재지지번주소}
                           {s.전화번호 ? ` · ${s.전화번호}` : ""}
-                          <span className="ml-1 text-green-dark">
-                            · 네이버지도에서 보기 ↗
-                          </span>
+                        </p>
+                        <p className="mt-1 text-sm font-bold text-green-dark">
+                          네이버지도에서 보기 ↗
                         </p>
                       </a>
                     </li>

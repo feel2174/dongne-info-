@@ -24,32 +24,34 @@ export default function RegionSearch({ regions }: { regions: RegionSummary[] }) 
         className="w-full rounded-xl border-2 border-green bg-white px-5 py-4 text-lg font-medium text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-green-dark"
       />
 
-      {/* 결과 개수와 무관하게 항상 같은 높이의 고정 박스 — 내용은 내부 스크롤로 처리해서
-          레이아웃 시프트가 전혀 발생하지 않게 함 */}
-      <div className="mt-3">
-        <p className="text-base font-semibold text-green-dark">
-          {hasQuery ? `${filtered.length}개 지역 찾음` : "동네 이름을 입력해보세요"}
-        </p>
+      {/* 입력 전에는 힌트 한 줄만, 검색 중에만 결과 영역이 자연스럽게 나타남 —
+          결과가 많을 때만 내부 스크롤로 전체 레이아웃이 과하게 늘어나는 걸 막음 */}
+      {hasQuery && (
+        <div className="mt-3">
+          <p className="text-base font-semibold text-green-dark">
+            {filtered.length}개 지역 찾음
+          </p>
 
-        <div className="mt-2 h-64 overflow-y-auto">
-          {hasQuery && filtered.length === 0 && (
-            <p className="text-base text-zinc-500">일치하는 지역이 없어요.</p>
-          )}
-          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-            {filtered.map((r) => (
-              <li key={`${r.sido}_${r.sigungu}`}>
-                <a
-                  href={`/${encodeURIComponent(r.sido)}/${encodeURIComponent(r.sigungu)}`}
-                  className="block cursor-pointer rounded-lg border-2 border-yellow bg-yellow-light px-3 py-2 text-base font-semibold text-green-dark hover:bg-yellow"
-                >
-                  <span className="block">{r.sigungu}</span>
-                  <span className="block text-sm font-normal text-zinc-500">{r.sido}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
+          <div className="mt-2 max-h-64 overflow-y-auto">
+            {filtered.length === 0 && (
+              <p className="text-base text-zinc-500">일치하는 지역이 없어요.</p>
+            )}
+            <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {filtered.map((r) => (
+                <li key={`${r.sido}_${r.sigungu}`}>
+                  <a
+                    href={`/${encodeURIComponent(r.sido)}/${encodeURIComponent(r.sigungu)}`}
+                    className="block cursor-pointer rounded-lg border-2 border-yellow bg-yellow-light px-3 py-2 text-base font-semibold text-green-dark hover:bg-yellow"
+                  >
+                    <span className="block">{r.sigungu}</span>
+                    <span className="block text-sm font-normal text-zinc-500">{r.sido}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
