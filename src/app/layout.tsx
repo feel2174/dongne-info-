@@ -76,9 +76,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col bg-[var(--background)] text-[var(--foreground)]">
         {children}
-        <footer className="mt-auto border-t-4 border-green bg-white px-4 py-6 text-center text-base text-zinc-600">
-          데이터 출처: 행정안전부 생활쓰레기배출정보 조회서비스, 전국종량제봉투판매소표준데이터
-          (공공데이터포털)
+        <footer className="mt-auto border-t-4 border-green bg-white px-4 py-6 text-center text-sm text-zinc-500">
+          <p className="max-w-2xl mx-auto">
+            <span className="font-bold text-zinc-700">면책조항:</span> 본 사이트가 제공하는
+            배출 요일·시간 및 판매소 정보는 공공데이터포털이 제공하는 공공데이터를 가공하여
+            보여주는 참고용 정보이며, 실제 정보와 다를 수 있습니다. 정확한 배출 기준은 관할
+            지방자치단체의 공지사항을 통해 다시 확인해 주세요. 본 사이트는 정보의 정확성, 최신성에
+            대해 어떠한 법적 책임도 지지 않습니다.
+          </p>
+          <p className="mt-3">
+            데이터 출처: 행정안전부 생활쓰레기배출정보 조회서비스, 전국종량제봉투판매소표준데이터
+            (공공데이터포털) · 지도: @svg-maps/south-korea (CC BY 4.0)
+          </p>
         </footer>
       </body>
     </html>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllRegionSummaries, getRegionData } from "@/lib/regions";
+import DayBadges from "@/components/DayBadges";
+import BagStoreList from "@/components/BagStoreList";
 
 export async function generateStaticParams() {
   return getAllRegionSummaries().map((r) => ({
@@ -85,26 +87,32 @@ export default async function RegionPage({
                 <p className="text-base text-zinc-500">
                   배출 방식: {w.EMSN_PLC_TYPE} ({w.EMSN_PLC})
                 </p>
-                <dl className="mt-4 grid gap-3 text-lg">
+                <dl className="mt-4 space-y-3 text-lg">
                   <div className="rounded-lg bg-green-light px-4 py-3">
-                    <dt className="inline font-bold text-green-dark">🟢 일반쓰레기</dt>
-                    <dd className="inline text-zinc-800">
-                      {" "}
-                      {w.LF_WST_EMSN_DOW} {w.LF_WST_EMSN_BGNG_TM}~{w.LF_WST_EMSN_END_TM}
+                    <dt className="font-bold text-green-dark">🟢 일반쓰레기</dt>
+                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
+                      <DayBadges dow={w.LF_WST_EMSN_DOW} />
+                      <span>
+                        {w.LF_WST_EMSN_BGNG_TM}~{w.LF_WST_EMSN_END_TM}
+                      </span>
                     </dd>
                   </div>
                   <div className="rounded-lg bg-yellow-light px-4 py-3">
-                    <dt className="inline font-bold text-yellow-dark">🟡 음식물쓰레기</dt>
-                    <dd className="inline text-zinc-800">
-                      {" "}
-                      {w.FOD_WST_EMSN_DOW} {w.FOD_WST_EMSN_BGNG_TM}~{w.FOD_WST_EMSN_END_TM}
+                    <dt className="font-bold text-yellow-dark">🟡 음식물쓰레기</dt>
+                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
+                      <DayBadges dow={w.FOD_WST_EMSN_DOW} />
+                      <span>
+                        {w.FOD_WST_EMSN_BGNG_TM}~{w.FOD_WST_EMSN_END_TM}
+                      </span>
                     </dd>
                   </div>
                   <div className="rounded-lg bg-green-light px-4 py-3">
-                    <dt className="inline font-bold text-green-dark">♻️ 재활용품</dt>
-                    <dd className="inline text-zinc-800">
-                      {" "}
-                      {w.RCYCL_EMSN_DOW} {w.RCYCL_EMSN_BGNG_TM}~{w.RCYCL_EMSN_END_TM}
+                    <dt className="font-bold text-green-dark">♻️ 재활용품</dt>
+                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
+                      <DayBadges dow={w.RCYCL_EMSN_DOW} />
+                      <span>
+                        {w.RCYCL_EMSN_BGNG_TM}~{w.RCYCL_EMSN_END_TM}
+                      </span>
                     </dd>
                   </div>
                 </dl>
@@ -137,28 +145,7 @@ export default async function RegionPage({
             아직 등록된 판매소 정보가 없습니다.
           </p>
         ) : (
-          <ul className="mt-4 divide-y-2 divide-yellow-light rounded-2xl border-2 border-yellow bg-white">
-            {bagStores.map((s, i) => (
-              <li key={i} className="px-5 py-4">
-                <p className="text-lg font-bold text-zinc-900">
-                  {s.판매소명}{" "}
-                  <span
-                    className={
-                      s.영업상태명 === "영업"
-                        ? "ml-1 rounded-full bg-green-light px-2 py-0.5 text-sm font-bold text-green-dark"
-                        : "ml-1 rounded-full bg-zinc-100 px-2 py-0.5 text-sm font-bold text-zinc-400"
-                    }
-                  >
-                    {s.영업상태명}
-                  </span>
-                </p>
-                <p className="mt-1 text-base text-zinc-500">
-                  {s.소재지도로명주소 || s.소재지지번주소}
-                  {s.전화번호 ? ` · ${s.전화번호}` : ""}
-                </p>
-              </li>
-            ))}
-          </ul>
+          <BagStoreList stores={bagStores} />
         )}
       </section>
     </main>

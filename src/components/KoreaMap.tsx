@@ -1,41 +1,49 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+// @svg-maps/south-korea ships a type declaration that depends on an
+// unpublished "svg-maps__common" types package, so it resolves to `any`.
+// Import as unknown and cast to a minimal local shape instead.
+import southKoreaRaw from "@svg-maps/south-korea";
 import type { RegionSummary } from "@/lib/regions";
 
-interface Tile {
-  sido: string;
-  short: string;
-  col: number;
-  row: number;
-  colSpan?: number;
-  rowSpan?: number;
+interface SvgMapLocation {
+  id: string;
+  name: string;
+  path: string;
 }
 
-// 실제 지리적 위치를 단순화한 타일 배치 (선거 결과 지도 등에서 흔히 쓰는 카토그램 방식)
-// 모든 타일은 1x1 — 겹침 없이 유일한 (col, row)만 사용
-const TILES: Tile[] = [
-  { sido: "강원특별자치도", short: "강원", col: 5, row: 1 },
-  { sido: "경기도", short: "경기", col: 3, row: 2 },
-  { sido: "인천광역시", short: "인천", col: 2, row: 3 },
-  { sido: "서울특별시", short: "서울", col: 3, row: 3 },
-  { sido: "충청북도", short: "충북", col: 5, row: 3 },
-  { sido: "경상북도", short: "경북", col: 6, row: 3 },
-  { sido: "충청남도", short: "충남", col: 3, row: 4 },
-  { sido: "세종특별자치시", short: "세종", col: 4, row: 4 },
-  { sido: "전북특별자치도", short: "전북", col: 3, row: 5 },
-  { sido: "대전광역시", short: "대전", col: 4, row: 5 },
-  { sido: "대구광역시", short: "대구", col: 6, row: 5 },
-  { sido: "울산광역시", short: "울산", col: 7, row: 5 },
-  { sido: "광주광역시", short: "광주", col: 3, row: 6 },
-  { sido: "경상남도", short: "경남", col: 5, row: 6 },
-  { sido: "부산광역시", short: "부산", col: 7, row: 6 },
-  { sido: "전라남도", short: "전남", col: 3, row: 7 },
-  { sido: "제주특별자치도", short: "제주", col: 3, row: 9 },
-];
+interface SvgMap {
+  viewBox: string;
+  locations: SvgMapLocation[];
+}
+
+const southKorea = southKoreaRaw as unknown as SvgMap;
+
+// @svg-maps/south-korea 영문 id -> 실제 데이터의 한글 시도명
+const ID_TO_SIDO: Record<string, string> = {
+  busan: "부산광역시",
+  daegu: "대구광역시",
+  daejeon: "대전광역시",
+  gangwon: "강원특별자치도",
+  gwangju: "광주광역시",
+  gyeonggi: "경기도",
+  incheon: "인천광역시",
+  jeju: "제주특별자치도",
+  "north-chungcheong": "충청북도",
+  "north-gyeongsang": "경상북도",
+  "north-jeolla": "전북특별자치도",
+  sejong: "세종특별자치시",
+  seoul: "서울특별시",
+  "south-chungcheong": "충청남도",
+  "south-gyeongsang": "경상남도",
+  "south-jeolla": "전라남도",
+  ulsan: "울산광역시",
+};
 
 export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
   const [selectedSido, setSelectedSido] = useState<string | null>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
 
   const bySido = new Map<string, RegionSummary[]>();
   for (const r of regions) {
@@ -43,50 +51,57 @@ export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
     bySido.get(r.sido)!.push(r);
   }
 
+  useEffect(() => {
+    if (selectedSido && panelRef.current) {
+      panelRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [selectedSido]);
+
   const selectedRegions = selectedSido ? (bySido.get(selectedSido) ?? []) : [];
 
   return (
     <div>
-      <div
-        className="grid gap-2 mx-auto max-w-xl"
-        style={{
-          gridTemplateColumns: "repeat(7, minmax(0, 1fr))",
-          gridAutoRows: "56px",
-        }}
+      <svg
+        viewBox={southKorea.viewBox}
+        role="img"
+        aria-label="대한민국 지도"
+        className="mx-auto w-full max-w-md"
       >
-        {TILES.map((t) => {
-          const available = bySido.has(t.sido);
-          const isSelected = selectedSido === t.sido;
+        {southKorea.locations.map((loc) => {
+          const sido = ID_TO_SIDO[loc.id];
+          const available = bySido.has(sido);
+          const isSelected = selectedSido === sido;
+
           return (
-            <button
-              key={t.sido}
-              disabled={!available}
-              onClick={() => setSelectedSido(isSelected ? null : t.sido)}
-              style={{
-                gridColumn: `${t.col} / span ${t.colSpan ?? 1}`,
-                gridRow: `${t.row} / span ${t.rowSpan ?? 1}`,
-              }}
+            <path
+              key={loc.id}
+              d={loc.path}
+              onClick={() => available && setSelectedSido(isSelected ? null : sido)}
               className={[
-                "rounded-xl flex items-center justify-center font-bold text-lg sm:text-xl transition-all border-2",
+                "stroke-white transition-colors",
                 !available
-                  ? "bg-zinc-100 text-zinc-300 border-zinc-200 cursor-not-allowed"
+                  ? "fill-zinc-200 cursor-not-allowed"
                   : isSelected
-                    ? "bg-green text-white border-green-dark scale-105 shadow-lg"
-                    : "bg-yellow-light text-green-dark border-yellow hover:bg-yellow hover:scale-105",
+                    ? "fill-green cursor-pointer"
+                    : "fill-yellow hover:fill-yellow-dark cursor-pointer",
               ].join(" ")}
+              strokeWidth={2}
             >
-              {t.short}
-            </button>
+              <title>{sido ?? loc.name}</title>
+            </path>
           );
         })}
-      </div>
+      </svg>
 
       <p className="mt-4 text-center text-base text-zinc-500">
         회색 지역은 아직 데이터가 준비되지 않았어요. 초록/노랑 지역을 눌러보세요.
       </p>
 
       {selectedSido && (
-        <div className="mt-6 rounded-2xl border-4 border-green bg-white p-5">
+        <div
+          ref={panelRef}
+          className="mt-6 scroll-mt-6 rounded-2xl border-4 border-green bg-white p-5"
+        >
           <h2 className="text-xl font-bold text-green-dark mb-3">
             {selectedSido} 시군구 ({selectedRegions.length}개)
           </h2>
@@ -97,7 +112,7 @@ export default function KoreaMap({ regions }: { regions: RegionSummary[] }) {
                 <li key={r.sigungu}>
                   <a
                     href={`/${encodeURIComponent(r.sido)}/${encodeURIComponent(r.sigungu)}`}
-                    className="block rounded-lg bg-yellow-light px-3 py-2 text-center text-base font-semibold text-green-dark hover:bg-yellow"
+                    className="block cursor-pointer rounded-lg bg-yellow-light px-3 py-2 text-center text-base font-semibold text-green-dark hover:bg-yellow"
                   >
                     {r.sigungu}
                   </a>

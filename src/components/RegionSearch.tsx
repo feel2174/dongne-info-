@@ -12,6 +12,8 @@ export default function RegionSearch({ regions }: { regions: RegionSummary[] }) 
     return regions.filter((r) => `${r.sido}${r.sigungu}`.includes(q));
   }, [query, regions]);
 
+  const hasQuery = query.trim().length > 0;
+
   return (
     <div className="mt-4">
       <input
@@ -22,17 +24,23 @@ export default function RegionSearch({ regions }: { regions: RegionSummary[] }) 
         className="w-full rounded-xl border-2 border-green bg-white px-5 py-4 text-lg font-medium text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-green-dark"
       />
 
-      {query.trim() && (
-        <>
-          <p className="mt-3 text-base font-semibold text-green-dark">
-            {filtered.length}개 지역 찾음
-          </p>
-          <ul className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3">
+      {/* 결과 개수와 무관하게 항상 같은 높이의 고정 박스 — 내용은 내부 스크롤로 처리해서
+          레이아웃 시프트가 전혀 발생하지 않게 함 */}
+      <div className="mt-3">
+        <p className="text-base font-semibold text-green-dark">
+          {hasQuery ? `${filtered.length}개 지역 찾음` : "동네 이름을 입력해보세요"}
+        </p>
+
+        <div className="mt-2 h-64 overflow-y-auto">
+          {hasQuery && filtered.length === 0 && (
+            <p className="text-base text-zinc-500">일치하는 지역이 없어요.</p>
+          )}
+          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
             {filtered.map((r) => (
               <li key={`${r.sido}_${r.sigungu}`}>
                 <a
                   href={`/${encodeURIComponent(r.sido)}/${encodeURIComponent(r.sigungu)}`}
-                  className="block rounded-lg border-2 border-yellow bg-yellow-light px-3 py-2 text-base font-semibold text-green-dark hover:bg-yellow"
+                  className="block cursor-pointer rounded-lg border-2 border-yellow bg-yellow-light px-3 py-2 text-base font-semibold text-green-dark hover:bg-yellow"
                 >
                   <span className="block">{r.sigungu}</span>
                   <span className="block text-sm font-normal text-zinc-500">{r.sido}</span>
@@ -40,8 +48,8 @@ export default function RegionSearch({ regions }: { regions: RegionSummary[] }) 
               </li>
             ))}
           </ul>
-        </>
-      )}
+        </div>
+      </div>
     </div>
   );
 }
