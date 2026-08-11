@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2023-03-17",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "문전수거",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "01:00",
+      "FOD_WST_EMSN_MTHD": "음식믈스티커 부착배출",
+      "LAST_MDFCN_PNT": "2023-03-17 11:02:18",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "01:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 배출",
+      "MNG_DEPT_NM": "환경위생과",
+      "MNG_DEPT_TELNO": "042-840-2483",
+      "MNG_NO": "202355800000400001",
+      "MNG_ZONE_NM": "1권역",
+      "MNG_ZONE_TRGT_RGN_NM": "엄사면+금암동+두마면",
+      "OPN_ATMY_GRP_CD": "5580000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+목",
+      "RCYCL_EMSN_END_TM": "07:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐에 종류별로 배출",
+      "SGG_NM": "계룡시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대형폐기물스티커 부착배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "문전수거",
+      "UNCLLT_DAY": "명절"
+    }
+  ]
+}

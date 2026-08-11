@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2026-05-20",
+      "DAT_UPDT_PNT": "2026-05-21 21:27:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "주택 또는 상가 앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "물기를 제거한 후 음식물 전용용기 또는 전용 종량제 봉투 배출",
+      "LAST_MDFCN_PNT": "2026-05-20 17:04:11",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "문전배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "031-550-2757",
+      "MNG_NO": "202639800000400001",
+      "MNG_ZONE_NM": "구리시",
+      "MNG_ZONE_TRGT_RGN_NM": "구리시",
+      "OPN_ATMY_GRP_CD": "3980000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "품목별 분리하여 투명한 봉투에 담아 배출",
+      "SGG_NM": "구리시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "23:59",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "-",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "-",
+      "UNCLLT_DAY": "주말, 공휴일"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2022-12-31",
+      "DAT_UPDT_PNT": "2026-04-28 22:32:12",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "00:00",
+      "FOD_WST_EMSN_MTHD": "물기를 제거 후 음식물 전용봉투에 담아 음식물거점전용용기에 배출",
+      "LAST_MDFCN_PNT": "2022-12-01 10:45:46",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "00:00",
+      "LF_WST_EMSN_MTHD": "종량제 봉투를 흩날리지 않도록 묶어 내집 내점포 앞 배출",
+      "MNG_DEPT_NM": "청소과",
+      "MNG_DEPT_TELNO": "26703491",
+      "MNG_NO": "202031800000400001",
+      "MNG_ZONE_NM": "영등포구(전역)",
+      "MNG_ZONE_TRGT_RGN_NM": "영등포구",
+      "OPN_ATMY_GRP_CD": "3180000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "00:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담아 흩날리지 않도록 묶어서 배출 내집 내점포 앞 또는 클린하우스/재활용정거장 배출",
+      "SGG_NM": "영등포구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "배출자가 성상별로 수거업체와 별도 계약 후 배출및 처리",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집앞",
+      "UNCLLT_DAY": "명절+임시공휴일+토요일"
+    }
+  ]
+}

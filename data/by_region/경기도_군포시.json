@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2026-05-11",
+      "DAT_UPDT_PNT": "2026-05-12 21:27:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 전용봉투에 넣어 배출",
+      "LAST_MDFCN_PNT": "2026-05-11 11:02:50",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 장소에 배출",
+      "MNG_DEPT_NM": "위생자원과",
+      "MNG_DEPT_TELNO": "031-390-0251",
+      "MNG_NO": "202040200000400001",
+      "MNG_ZONE_NM": "경기도",
+      "MNG_ZONE_TRGT_RGN_NM": "군포시",
+      "OPN_ATMY_GRP_CD": "4020000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 장소에 배출",
+      "SGG_NM": "군포시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "06:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "일반폐기물과 동일",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "일반폐기물과 동일",
+      "UNCLLT_DAY": "추석명절+설 명절+일요일+신정+근로자의날+어린이날+현충일+크리스마스"
+    }
+  ]
+}

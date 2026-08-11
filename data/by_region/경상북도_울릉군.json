@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상북도",
+      "DAT_CRTR_YMD": "2025-06-23",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "클린하우스",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "00:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "RFID기기, 음식물쓰레기수거함",
+      "LAST_MDFCN_PNT": "2025-06-23 20:03:31",
+      "LF_WST_EMSN_BGNG_TM": "17:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "02:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투",
+      "MNG_DEPT_NM": "환경위생과",
+      "MNG_DEPT_TELNO": "054-790-6188",
+      "MNG_NO": "202452600000400001",
+      "MNG_ZONE_NM": "거점수거",
+      "MNG_ZONE_TRGT_RGN_NM": "울릉군",
+      "OPN_ATMY_GRP_CD": "5260000",
+      "RCYCL_EMSN_BGNG_TM": "17:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "02:00",
+      "RCYCL_EMSN_MTHD": "투명비닐봉지,마대",
+      "SGG_NM": "울릉군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "09:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "17:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "사동 생활폐기물 선별시설 자가배출(환경위생과 신고 후 배출)",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "사동 생활폐기물 선별시설",
+      "UNCLLT_DAY": "없음"
+    }
+  ]
+}

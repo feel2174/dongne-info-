@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "대전광역시",
+      "DAT_CRTR_YMD": "2024-06-30",
+      "DAT_UPDT_PNT": "2026-05-08 22:40:56",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "03:00",
+      "FOD_WST_EMSN_MTHD": "전용용기에 납부필증 부착 배출",
+      "LAST_MDFCN_PNT": "2024-07-12 13:41:51",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "03:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 집앞 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "042-608-6353",
+      "MNG_NO": "202336800000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "3680000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "03:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담아 지정요일에 배출",
+      "SGG_NM": "대덕구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "없음",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "없음",
+      "UNCLLT_DAY": "일요일"
+    }
+  ]
+}

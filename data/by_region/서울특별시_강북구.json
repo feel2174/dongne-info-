@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2026-05-12",
+      "DAT_UPDT_PNT": "2026-05-13 22:27:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "내 집 대문 앞, 내 점포 앞, 내 건물앞 또는 자체 지정한 쓰레기 배출장소",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "단독주택: 음식물 쓰레기 종량제 봉투공동주택: 전용 용기(납부확인증 부착) 또는 종량기 사용소형음식점: 전용 용기(납부확인증 부착)",
+      "LAST_MDFCN_PNT": "2026-05-12 13:20:55",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "생활쓰레기 종량제 봉투",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "02-901-6782",
+      "MNG_NO": "202030800000400001",
+      "MNG_ZONE_NM": "강북구전역",
+      "MNG_ZONE_TRGT_RGN_NM": "강북구전역",
+      "OPN_ATMY_GRP_CD": "3080000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "(반)투명비닐봉투에 담아 각각 별도 분리배출(*  비닐과 투명 페트병은 목요일날배출    그외 재활용품은 일,월,화,수,금 배출)(* 예외로, 가로변은 배출시작  22:00, 배출종료 02:00)",
+      "SGG_NM": "강북구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "23:59",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "특수규격봉투(특수마대), 대형폐기물 신고필증",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "내 집 대문 앞, 내 점포 앞, 내 건물앞 또는 자체 지정한 쓰레기 배출장소",
+      "UNCLLT_DAY": "토요일 및 공휴일 전일"
+    }
+  ]
+}

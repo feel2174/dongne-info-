@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2020-05-22",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "07:00",
+      "FOD_WST_EMSN_MTHD": "음식물수거용기에 배출",
+      "LAST_MDFCN_PNT": "2020-07-01 10:08:51",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "07:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 넣어 배출",
+      "MNG_DEPT_NM": "환경과",
+      "MNG_DEPT_TELNO": "061-797-3336",
+      "MNG_NO": "202058000000400001",
+      "MNG_ZONE_NM": "광양시",
+      "MNG_ZONE_TRGT_RGN_NM": "전지역",
+      "OPN_ATMY_GRP_CD": "5800000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "07:00",
+      "RCYCL_EMSN_MTHD": "투명봉투에 배출",
+      "SGG_NM": "광양시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "07:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "·면·동주민센터에서 배출확인서를 발급 후 개인차량을 이용하여 지정된 장소에 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "위탁처리",
+      "UNCLLT_DAY": "일요일"
+    }
+  ]
+}

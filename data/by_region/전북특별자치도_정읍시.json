@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전북특별자치도",
+      "DAT_CRTR_YMD": "2022-05-19",
+      "DAT_UPDT_PNT": "2026-05-16 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "04:00",
+      "FOD_WST_EMSN_MTHD": "종량제봉투 및 칩",
+      "LAST_MDFCN_PNT": "2026-05-15 16:38:49",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "04:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "063-539-8143",
+      "MNG_NO": "202246910000400001",
+      "MNG_ZONE_NM": "정읍시",
+      "MNG_ZONE_TRGT_RGN_NM": "정읍시",
+      "OPN_ATMY_GRP_CD": "4691000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "04:00",
+      "RCYCL_EMSN_MTHD": "비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출",
+      "SGG_NM": "정읍시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "19:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "04:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "사전신고",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "사전신고",
+      "UNCLLT_DAY": "공휴일"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2020-07-10",
+      "DAT_UPDT_PNT": "2026-03-26 22:58:08",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "21:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 전용봉투에 넣어 배출",
+      "LAST_MDFCN_PNT": "2020-07-13 15:58:28",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "21:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "02-2148-2373",
+      "MNG_NO": "202030000000400002",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "3000000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "21:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출",
+      "SGG_NM": "종로구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "19:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "21:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "주민센터방문 혹은 종로구홈페이지에 신청 후 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집앞",
+      "UNCLLT_DAY": "토+구정연휴+추석연휴"
+    }
+  ]
+}

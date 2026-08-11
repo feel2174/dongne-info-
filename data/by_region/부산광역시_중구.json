@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "부산광역시",
+      "DAT_CRTR_YMD": "2021-10-25",
+      "DAT_UPDT_PNT": "2026-05-06 22:43:21",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "각 세대 앞, 아파트는 분리수거장",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+화+목",
+      "FOD_WST_EMSN_END_TM": "22:00",
+      "FOD_WST_EMSN_MTHD": "음식물 전용 용기에 담아 납부필증(칩) 부착 배출",
+      "LAST_MDFCN_PNT": "2021-10-25 13:46:21",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+화+목",
+      "LF_WST_EMSN_END_TM": "22:00",
+      "LF_WST_EMSN_MTHD": "종량제 쓰레기 봉투에 담아 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "051-600-4432",
+      "MNG_NO": "202132500000400001",
+      "MNG_ZONE_NM": "중구 전역",
+      "MNG_ZONE_TRGT_RGN_NM": "1구역 : 동광,보수,부평,영주1,영주2동 6개 공동주택(흥아거북맨션, 금호타운, 동아아파트, 영주아파트2동 가,나, 다, 라, 3동 나, 라, 동남파크맨션)2구역 : 중앙, 대청, 광복, 남포, 영주2동",
+      "OPN_ATMY_GRP_CD": "3250000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+수",
+      "RCYCL_EMSN_END_TM": "22:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 배출",
+      "SGG_NM": "중구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "주민센터 신고 후 납부필증 부착 후 배출 또는 여기로 앱 사용",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "신고장소(차량진입 가능한 곳)",
+      "UNCLLT_DAY": "금+토"
+    }
+  ]
+}

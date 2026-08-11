@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2023-06-30",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+수",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "종량제봉투, 칩 부탁 배출",
+      "LAST_MDFCN_PNT": "2023-07-05 13:43:31",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+화+목",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 넣어 배출",
+      "MNG_DEPT_NM": "환경산림과",
+      "MNG_DEPT_TELNO": "041-670-2795",
+      "MNG_NO": "202346200000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "태안군",
+      "OPN_ATMY_GRP_CD": "4620000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+수",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "일반 투명비닐봉투에 넣어 배출",
+      "SGG_NM": "태안군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "05:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "전문처리업체 위탁처리",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "발생장소",
+      "UNCLLT_DAY": "휴일+공휴일+법정 휴일"
+    }
+  ]
+}

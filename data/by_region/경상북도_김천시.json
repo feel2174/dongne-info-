@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상북도",
+      "DAT_CRTR_YMD": "2026-05-15",
+      "DAT_UPDT_PNT": "2026-05-12 21:57:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "음식물쓰레기통에 납부필증 걸어 배출",
+      "LAST_MDFCN_PNT": "2026-05-11 10:20:40",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 담아 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "054-420-6194",
+      "MNG_NO": "202150600000400001",
+      "MNG_ZONE_NM": "김천시",
+      "MNG_ZONE_TRGT_RGN_NM": "동지역",
+      "OPN_ATMY_GRP_CD": "5060000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "투명한 봉지에 날리지 않게 담아 묶어 배출",
+      "SGG_NM": "김천시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍면동 행정복지센터 방문 또는 인터넷 접수(www.gc.go.kr/bigclean/) 후 스티커(신고필증)부착하여 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "차량통행이 가능한 장소",
+      "UNCLLT_DAY": "토, 일요일"
+    }
+  ]
+}

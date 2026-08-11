@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상남도",
+      "DAT_CRTR_YMD": "2026-05-08",
+      "DAT_UPDT_PNT": "2026-05-09 21:58:02",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "밴드형 납부필증+RFID",
+      "LAST_MDFCN_PNT": "2026-05-08 11:09:39",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "055-330-3384",
+      "MNG_NO": "202653500000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "5350000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 품목별 배출",
+      "SGG_NM": "김해시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "00:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "15:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대행업체 수거",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "문전수거",
+      "UNCLLT_DAY": "토+일+1월1일+설 당일+설 다음날+추석 당일+추석 다음날+근로자의날"
+    }
+  ]
+}

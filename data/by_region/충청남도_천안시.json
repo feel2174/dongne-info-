@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2026-05-07",
+      "DAT_UPDT_PNT": "2026-05-08 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "거점수거+문전수거(신방통정지구, 성성지구, 불당2동 신도시 등)",
+      "EMSN_PLC_TYPE": "기타",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 전용봉투에 넣어 배출",
+      "LAST_MDFCN_PNT": "2026-05-07 17:13:26",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "종량제 봉투에 넣어 배출",
+      "MNG_DEPT_NM": "충청남도 천안시 청소행정과",
+      "MNG_DEPT_TELNO": "041-521-2341",
+      "MNG_NO": "202244900000400001",
+      "MNG_ZONE_NM": "천안시 전지역",
+      "MNG_ZONE_TRGT_RGN_NM": "천안시 전지역",
+      "OPN_ATMY_GRP_CD": "4490000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 배출",
+      "SGG_NM": "천안시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "23:59",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "불연성은 불연성 마대 구입하여 배출, 가연성은 가연성 마대 구입하여 배출(생활폐기물만 해당)",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "각 지역 배출장소",
+      "UNCLLT_DAY": "명절 연휴 기간(일부), 일요일"
+    }
+  ]
+}

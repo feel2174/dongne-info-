@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상남도",
+      "DAT_CRTR_YMD": "2026-05-22",
+      "DAT_UPDT_PNT": "2026-05-23 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "함양군 혼합수거(함양읍/안의면 시가지 - 문전수거, 그 외 지역 - 거점수거)",
+      "EMSN_PLC_TYPE": "기타",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "함양읍 시가지 및 그 외 지역(음식점, 다가구주택) : 수거용기에 납부칩을 부착하여 문전 배출, 그 외 지역(주택) : 음식물류 종량제 봉투에 담아 묶어 지정된 장소에 배출",
+      "LAST_MDFCN_PNT": "2026-05-22 15:08:43",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "불연성, 가연성을 분류하여 종량제 봉투에 담아 묶은 후 지정된 장소(배출지점)에 배출",
+      "MNG_DEPT_NM": "함양군 환경정책과",
+      "MNG_DEPT_TELNO": "055-960-6130",
+      "MNG_NO": "202454600000400002",
+      "MNG_ZONE_NM": "생활쓰레기 배출지점",
+      "MNG_ZONE_TRGT_RGN_NM": "함양군",
+      "OPN_ATMY_GRP_CD": "5460000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "(페트병, 플라스틱용기, 병, 철캔 등 용기류) 내용물 제거, 헹굼, 부착물제거 후 성상별로 구분하여 배출, 그 외 : 「함양군 폐기물관리에 관한 조례」 별표2  참고",
+      "SGG_NM": "함양군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "-",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "-",
+      "UNCLLT_DAY": "토요일 오후 ~ 일요일"
+    }
+  ]
+}

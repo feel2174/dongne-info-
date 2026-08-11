@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2026-05-15",
+      "DAT_UPDT_PNT": "2026-05-15 22:57:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "내 집 앞, 내 가게 앞 배출",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "22:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "01:00",
+      "FOD_WST_EMSN_MTHD": "음식물종량제봉투를 이용하여 수거용기에 넣어 배출 (수거용기는 동주민센터에 신청하시면 무료로 드림)",
+      "LAST_MDFCN_PNT": "2026-05-14 10:34:32",
+      "LF_WST_EMSN_BGNG_TM": "22:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "01:00",
+      "LF_WST_EMSN_MTHD": "종량제 봉투를 이용하여 배출 (종량제 봉투는 가까운 수퍼에서 구입)",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "02-2199-7307",
+      "MNG_NO": "202630200000400002",
+      "MNG_ZONE_NM": "용산구 관내",
+      "MNG_ZONE_TRGT_RGN_NM": "용산구 16개동",
+      "OPN_ATMY_GRP_CD": "3020000",
+      "RCYCL_EMSN_BGNG_TM": "22:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "01:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투를 이용하여 배출",
+      "SGG_NM": "용산구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "자체 처리",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "자체 처리",
+      "UNCLLT_DAY": "토요일, 공휴일"
+    }
+  ]
+}

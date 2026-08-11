@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "대전광역시",
+      "DAT_CRTR_YMD": "2026-04-28",
+      "DAT_UPDT_PNT": "2026-05-09 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "내집, 내점포 앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목",
+      "FOD_WST_EMSN_END_TM": "02:00",
+      "FOD_WST_EMSN_MTHD": "저녁 6시 이후 배출(금, 토 제외)",
+      "LAST_MDFCN_PNT": "2026-05-08 10:56:13",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목",
+      "LF_WST_EMSN_END_TM": "02:00",
+      "LF_WST_EMSN_MTHD": "저녁 6시 이후 배출(금, 토 제외)",
+      "MNG_DEPT_NM": "동구청 환경과",
+      "MNG_DEPT_TELNO": "042-251-4561",
+      "MNG_NO": "202536400000400001",
+      "MNG_ZONE_NM": "대전광역시 동구",
+      "MNG_ZONE_TRGT_RGN_NM": "대전광역시 동구",
+      "OPN_ATMY_GRP_CD": "3640000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "02:00",
+      "RCYCL_EMSN_MTHD": "종이류, 비닐류, 기타품목 3종류로 분류하여 배출",
+      "SGG_NM": "동구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "기존 동일",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "기존 동일",
+      "UNCLLT_DAY": "금+토(재활용품 제외)"
+    }
+  ]
+}

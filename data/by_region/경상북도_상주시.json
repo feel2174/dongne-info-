@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상북도",
+      "DAT_CRTR_YMD": "2026-05-20",
+      "DAT_UPDT_PNT": "2026-05-21 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "지정 배출장소",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "01:00",
+      "FOD_WST_EMSN_MTHD": "음식물 쓰레기 배출 전용용기 사용",
+      "LAST_MDFCN_PNT": "2026-05-20 08:58:47",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "01:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투 사용",
+      "MNG_DEPT_NM": "환경관리과",
+      "MNG_DEPT_TELNO": "054-537-7366",
+      "MNG_NO": "202051100000400002",
+      "MNG_ZONE_NM": "경상북도",
+      "MNG_ZONE_TRGT_RGN_NM": "상주시",
+      "OPN_ATMY_GRP_CD": "5110000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "01:00",
+      "RCYCL_EMSN_MTHD": "투명비닐봉투에 재활용품 담아 배출",
+      "SGG_NM": "상주시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "19:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "01:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍면동 행정복지센터  및 대형폐기물 관리시스템 대형폐기물 스티커 구입",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "종량제봉투 배출장소와 동일",
+      "UNCLLT_DAY": "매주 일요일"
+    }
+  ]
+}

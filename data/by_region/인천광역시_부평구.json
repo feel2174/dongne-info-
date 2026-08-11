@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "인천광역시",
+      "DAT_CRTR_YMD": "2021-10-01",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집(가게) 앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+화+목",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 제거한 후 전용용기에 납부필증 부착 후 배출",
+      "LAST_MDFCN_PNT": "2023-12-19 16:50:27",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+월+수+목+금+화",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "일반 종량제 봉투로 배출(음식물, 재활용 제외)",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "032-509-6600",
+      "MNG_NO": "202035400000400001",
+      "MNG_ZONE_NM": "부평구 전역",
+      "MNG_ZONE_TRGT_RGN_NM": "부평구 전역",
+      "OPN_ATMY_GRP_CD": "3540000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+수+금",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "깨끗이 씻어 말린 상태로 투명한 비닐봉투에 종류별로 담아 지정된 요일에 배출",
+      "SGG_NM": "부평구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "해당없음",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "해당없음",
+      "UNCLLT_DAY": "일요일"
+    }
+  ]
+}

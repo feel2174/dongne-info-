@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경상남도",
+      "DAT_CRTR_YMD": "2026-05-14",
+      "DAT_UPDT_PNT": "2026-05-15 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "거점장소",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "02:00",
+      "FOD_WST_EMSN_MTHD": "수분 제거 후 음식물통에 넣어 지정된 요일, 시간에 배출 또는 음식물 기계 배출",
+      "LAST_MDFCN_PNT": "2026-05-14 17:22:14",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "02:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일, 시간에 배출",
+      "MNG_DEPT_NM": "환경위생과",
+      "MNG_DEPT_TELNO": "055-530-1625",
+      "MNG_NO": "202054100000400001",
+      "MNG_ZONE_NM": "창녕군 전지역(1구역~5구역)",
+      "MNG_ZONE_TRGT_RGN_NM": "창녕군 전지역",
+      "OPN_ATMY_GRP_CD": "5410000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "02:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 넣어 배출",
+      "SGG_NM": "창녕군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "19:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "02:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "생활폐기물 수집운반 대행업체 계약 후 자체처리 또는 대형폐기물 스티커 구매 후 창녕군 생활쓰레기 처리장 자체 반입",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "자체 계약 업체 통한 배출 또는 창녕군 생활쓰레기 처리장 반입",
+      "UNCLLT_DAY": "신정(1월1일)+설명절+추석명절+근로자의날(5월1일)+일요일(읍면별, 마을별 상이)"
+    }
+  ]
+}

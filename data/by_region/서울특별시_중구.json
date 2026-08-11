@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2026-05-13",
+      "DAT_UPDT_PNT": "2026-05-14 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "내집, 내점포 앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "00:00",
+      "FOD_WST_EMSN_MTHD": "음식물쓰레기 종량제봉투에 담아 내집, 내점포 앞에 배출(공동주택단지는 음식물종량기 사용)",
+      "LAST_MDFCN_PNT": "2026-05-13 13:51:59",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "00:00",
+      "LF_WST_EMSN_MTHD": "일반쓰레기종량제봉투에 담아 내집, 내점포 앞에 배출",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "02-3396-5453",
+      "MNG_NO": "202130100000400001",
+      "MNG_ZONE_NM": "서울시 중구",
+      "MNG_ZONE_TRGT_RGN_NM": "서울시 중구",
+      "OPN_ATMY_GRP_CD": "3010000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "00:00",
+      "RCYCL_EMSN_MTHD": "내용물 확인이 가능한 투명(반투명)한 용기에 담아 잘 묶어 내집, 내점포 앞에 배출",
+      "SGG_NM": "중구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "06:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "15:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대형폐기물 대행업체(남부환경 1577-6731) 에 배출신고(처리수수료 납부)한 후 배출 ※ '빼기' 어플리케이션 활용 가능",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "내집, 내점포 앞에 배출",
+      "UNCLLT_DAY": "동별상이(일요일 배출금지 : 소공,회현,을지로동 / 토요일 배출금지 : 중림,필,장충,광희,다산,신당,약수,청구,신당5,동화,황학동 ※ 명동은 별도 배출금지 요일 없음)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2026-05-19",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 음식물 수거용기에 넣어 배출",
+      "LAST_MDFCN_PNT": "2026-05-19 13:43:03",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "환경과",
+      "MNG_DEPT_TELNO": "061-530-5336",
+      "MNG_NO": "202658700000400001",
+      "MNG_ZONE_NM": "해남군",
+      "MNG_ZONE_TRGT_RGN_NM": "해남군",
+      "OPN_ATMY_GRP_CD": "5870000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "분리수거함에 넣거나 투명한 비닐봉투에 넣어 배출",
+      "SGG_NM": "해남군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍면사무소에 신고",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "신고 후 읍면사무소에서 수거",
+      "UNCLLT_DAY": "주말 및 휴일"
+    }
+  ]
+}

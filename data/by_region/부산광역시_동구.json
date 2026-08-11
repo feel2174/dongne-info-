@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "부산광역시",
+      "DAT_CRTR_YMD": "2026-05-13",
+      "DAT_UPDT_PNT": "2026-05-14 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "자기집 대문앞, 자기업소 1층 출입구",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+화+목",
+      "FOD_WST_EMSN_END_TM": "22:00",
+      "FOD_WST_EMSN_MTHD": "전용용기에 담아 납부필증 부착하여 배출",
+      "LAST_MDFCN_PNT": "2026-05-13 11:18:45",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+화+목",
+      "LF_WST_EMSN_END_TM": "22:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 담아서 배출",
+      "MNG_DEPT_NM": "환경청소위생과",
+      "MNG_DEPT_TELNO": "051-440-4438",
+      "MNG_NO": "202032700000400001",
+      "MNG_ZONE_NM": "부산 동구",
+      "MNG_ZONE_TRGT_RGN_NM": "초량동, 수정동, 범일동, 좌천동",
+      "OPN_ATMY_GRP_CD": "3270000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+수",
+      "RCYCL_EMSN_END_TM": "22:00",
+      "RCYCL_EMSN_MTHD": "종류별로 구분 배출",
+      "SGG_NM": "동구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "09:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대형폐기물로 업체에 신고, 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "2.5톤 트럭 진입가능 장소",
+      "UNCLLT_DAY": "금, 토"
+    }
+  ]
+}

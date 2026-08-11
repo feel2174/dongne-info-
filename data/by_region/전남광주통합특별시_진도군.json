@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2026-05-14",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "거점 및 문전수거",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "종량제규격봉투 사용",
+      "LAST_MDFCN_PNT": "2026-05-14 11:31:55",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "종량제규격봉투 사용",
+      "MNG_DEPT_NM": "환경수질과",
+      "MNG_DEPT_TELNO": "061-540-3722",
+      "MNG_NO": "202659050000400001",
+      "MNG_ZONE_NM": "진도관내",
+      "MNG_ZONE_TRGT_RGN_NM": "진도관내",
+      "OPN_ATMY_GRP_CD": "5905000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "투명비닐봉투 사용",
+      "SGG_NM": "진도군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "신고처리",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "진도군환경관리센터",
+      "UNCLLT_DAY": "휴일"
+    }
+  ]
+}

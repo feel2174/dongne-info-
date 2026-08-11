@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2025-10-22",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "거점배출장소",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "05:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "19:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 전용봉투에 넣어 배출(일몰 후)",
+      "LAST_MDFCN_PNT": "2025-10-24 11:03:33",
+      "LF_WST_EMSN_BGNG_TM": "05:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "19:00",
+      "LF_WST_EMSN_MTHD": "종량제 봉투에 넣어 지정된 요일에 배출(일몰 후)",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "031-644-2593",
+      "MNG_NO": "202540700000400001",
+      "MNG_ZONE_NM": "이천시",
+      "MNG_ZONE_TRGT_RGN_NM": "이천시 전체",
+      "OPN_ATMY_GRP_CD": "4070000",
+      "RCYCL_EMSN_BGNG_TM": "05:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "19:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출(일몰 후)",
+      "SGG_NM": "이천시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대형폐기물 스티커 발부 후 배출 또는 시청(자원순환과)에 문의하여 업체를 통하여 수거",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "시청(자원순환과)에 문의 후 배출",
+      "UNCLLT_DAY": "일요일+설날당일+추석당일"
+    }
+  ]
+}

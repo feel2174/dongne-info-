@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "강원특별자치도",
+      "DAT_CRTR_YMD": "2025-10-21",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "거점수거장소/공동주택 생활폐기물 보관대",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "거점수거(음식물쓰레기 전용 종량제 봉투에 배출)",
+      "LAST_MDFCN_PNT": "2025-10-21 14:43:09",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "거점수거(생활쓰레기 전용 종량제 봉투에 배출)",
+      "MNG_DEPT_NM": "환경과",
+      "MNG_DEPT_TELNO": "033-570-3336",
+      "MNG_NO": "202042410000400001",
+      "MNG_ZONE_NM": "강원특별자치도",
+      "MNG_ZONE_TRGT_RGN_NM": "삼척시",
+      "OPN_ATMY_GRP_CD": "4241000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "이물질 제거 후 거점수거장소 분리수거함 배출",
+      "SGG_NM": "삼척시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "09:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "15:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍·면·동 행정복지센터에 신고",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "매립장 직접 반입",
+      "UNCLLT_DAY": "일"
+    }
+  ]
+}

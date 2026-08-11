@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전북특별자치도",
+      "DAT_CRTR_YMD": "2026-05-07",
+      "DAT_UPDT_PNT": "2026-05-08 23:21:58",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "00:01",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 전용용기에 넣어 배출",
+      "LAST_MDFCN_PNT": "2026-05-07 10:25:01",
+      "LF_WST_EMSN_BGNG_TM": "00:01",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "규격봉투에넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "063-290-2673",
+      "MNG_NO": "202647210000400001",
+      "MNG_ZONE_NM": "전지역",
+      "MNG_ZONE_TRGT_RGN_NM": "전지역",
+      "OPN_ATMY_GRP_CD": "4721000",
+      "RCYCL_EMSN_BGNG_TM": "00:01",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "23:59",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출",
+      "SGG_NM": "완주군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "10:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍면 행정복지센터에서 폐기물 수수료 납부 후 지정된 장소에 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "읍면 선별장",
+      "UNCLLT_DAY": "일요일+명절"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2024-07-24",
+      "DAT_UPDT_PNT": "2026-04-29 22:37:47",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "내집 대문 앞 및 가게 앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "17:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "22:00",
+      "FOD_WST_EMSN_MTHD": "물기제거 후 음식물전용봉투에 배출",
+      "LAST_MDFCN_PNT": "2025-11-06 10:29:40",
+      "LF_WST_EMSN_BGNG_TM": "17:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "22:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정요일, 시간 배출",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "02-820-1326",
+      "MNG_NO": "202031900000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "노량진1동+노량진2동+상도1동+상도2동+상도3동+상도4동+사당1동+사당2동+사당3동+사당4동+사당5동+대방동+흑석동+신대방1동+신대방2동",
+      "OPN_ATMY_GRP_CD": "3190000",
+      "RCYCL_EMSN_BGNG_TM": "17:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "22:00",
+      "RCYCL_EMSN_MTHD": "투명봉투에 담아서 배출",
+      "SGG_NM": "동작구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "별도안내",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "없음",
+      "UNCLLT_DAY": "공휴일 전날 및 토요일"
+    }
+  ]
+}

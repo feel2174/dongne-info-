@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2026-05-12",
+      "DAT_UPDT_PNT": "2026-05-13 21:59:26",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "수거차량 진입이 용이한 곳",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "종량제봉투, RFID, 음식물류폐기물 납부필증",
+      "LAST_MDFCN_PNT": "2026-05-12 15:57:35",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투, 대형폐기물 납부필증, 불연성 폐기물마대 등",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "031-6193-2693",
+      "MNG_NO": "202240500000400001",
+      "MNG_ZONE_NM": "경기도 용인시",
+      "MNG_ZONE_TRGT_RGN_NM": "경기도 용인시",
+      "OPN_ATMY_GRP_CD": "4050000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "용인시 폐기물 관리에 관한 조례 시행규칙에 따라 분리배출",
+      "SGG_NM": "용인시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "18:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "05:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "사업장생활계 폐기물 처리 업체와 별도 계약하여 처리",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "처리업체와 상의한 장소",
+      "UNCLLT_DAY": "지역별 배출요일이 상이하므로 정확한 배출요일은 수거업체에 문의"
+    }
+  ]
+}

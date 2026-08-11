@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2024-12-18",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "물기를 최대한 줄여 음식물만 규격봉투 또는 보관용기에 넣어 배출",
+      "LAST_MDFCN_PNT": "2024-12-18 19:46:14",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "규격봉투 또는 보관용기에 넣어 지정요일에 배출",
+      "MNG_DEPT_NM": "청소자원과",
+      "MNG_DEPT_TELNO": "031-228-3249",
+      "MNG_NO": "202437400000400002",
+      "MNG_ZONE_NM": "수원시",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "3740000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "재활용품 성상별로 분리하여 투명한 비닐봉투 넣어 지정된 요일에 배출",
+      "SGG_NM": "수원시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "05:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "폐기물 수집운반업체에 문의하여 수거일시, 수거금액 등을 협의하여 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집앞",
+      "UNCLLT_DAY": "토+일"
+    }
+  ]
+}

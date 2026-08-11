@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2026-05-20",
+      "DAT_UPDT_PNT": "2026-05-21 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "각 마을별 지정된 집하장",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "04:00",
+      "FOD_WST_EMSN_MTHD": "물기 제거 후 음식물봉투 및 수거통에 배출(월~토 수거 동네별 수거일 조정)",
+      "LAST_MDFCN_PNT": "2026-05-20 09:31:04",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "04:00",
+      "LF_WST_EMSN_MTHD": "종량제 봉투 배출(월~토 수거 동네별 수거일 조정)",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "041-930-3692",
+      "MNG_NO": "202445100000400001",
+      "MNG_ZONE_NM": "보령시전역",
+      "MNG_ZONE_TRGT_RGN_NM": "1권역(대천천북부) 2권역(대천천남부)",
+      "OPN_ATMY_GRP_CD": "4510000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "04:00",
+      "RCYCL_EMSN_MTHD": "분리배출 수거함에 분리하여 배(월~토 수거 동네별 수거일 조정)",
+      "SGG_NM": "보령시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "04:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대행업체와 협의후 배출(생활폐기물에 한함)",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "대행업체와 협의후 배출",
+      "UNCLLT_DAY": "공휴일(설명절+추석명절+근로자의날)"
+    }
+  ]
+}

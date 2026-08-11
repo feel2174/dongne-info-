@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2024-07-31",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "생활쓰레기, 재활용품-대로변, 주민간합의된 장소, 음식물쓰레기-집앞",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "음식물수거용기에 담아 납부필증 부착하여 지정된 요일에 배출",
+      "LAST_MDFCN_PNT": "2024-07-31 10:40:21",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "종량제 봉투에 담아 지정된 요일에 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "061-659-3835",
+      "MNG_NO": "202057850000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "5785000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금+토",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "품목별로 분류하여 투병 봉투에 담거나 끈으로 묶어 배출",
+      "SGG_NM": "여수시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "05:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "대형폐기물 스티커 부착 후 수거",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "업체처리",
+      "UNCLLT_DAY": "일요일"
+    }
+  ]
+}

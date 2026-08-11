@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2024-07-10",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "지정배출장소 또는 건물 앞",
+      "EMSN_PLC_TYPE": "기타",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "지정배출장소 배출 또는 건물 앞 배출",
+      "LAST_MDFCN_PNT": "2024-07-10 15:21:38",
+      "LF_WST_EMSN_BGNG_TM": "18:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "지정배출장소 배출 또는 건물 앞 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "041-540-2335",
+      "MNG_NO": "202445200000400001",
+      "MNG_ZONE_NM": "쓰레기 배출장소",
+      "MNG_ZONE_TRGT_RGN_NM": "관내 17개 읍면동",
+      "OPN_ATMY_GRP_CD": "4520000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "지정배출장소 배출 또는 건물 앞 배출",
+      "SGG_NM": "아산시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "수거업체 협의",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "수거업체 협의",
+      "UNCLLT_DAY": "일요일, 명절 연휴"
+    }
+  ]
+}

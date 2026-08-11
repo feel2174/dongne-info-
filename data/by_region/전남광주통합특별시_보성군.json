@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전남광주통합특별시",
+      "DAT_CRTR_YMD": "2026-05-19",
+      "DAT_UPDT_PNT": "2026-07-21 14:07:15",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "거점 및 문전수거 혼합",
+      "EMSN_PLC_TYPE": "기타",
+      "FOD_WST_EMSN_BGNG_TM": "18:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "23:00",
+      "FOD_WST_EMSN_MTHD": "전용수거함에 배출",
+      "LAST_MDFCN_PNT": "2026-05-19 14:16:09",
+      "LF_WST_EMSN_BGNG_TM": "06:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "23:59",
+      "LF_WST_EMSN_MTHD": "쓰레기종량제 봉투 배출",
+      "MNG_DEPT_NM": "생활쓰레기(읍면), 음식물(기후환경과)",
+      "MNG_DEPT_TELNO": "061-850-5344",
+      "MNG_NO": "202058500000400001",
+      "MNG_ZONE_NM": "1권역",
+      "MNG_ZONE_TRGT_RGN_NM": "보성군 일원",
+      "OPN_ATMY_GRP_CD": "5850000",
+      "RCYCL_EMSN_BGNG_TM": "18:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "23:30",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서  배출",
+      "SGG_NM": "보성군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍·면사무소에 신고 후 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "문전 배출",
+      "UNCLLT_DAY": "공휴일"
+    }
+  ]
+}

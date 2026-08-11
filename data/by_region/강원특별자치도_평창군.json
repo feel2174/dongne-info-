@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "강원특별자치도",
+      "DAT_CRTR_YMD": "2025-10-23",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "청소차량이 통행하는 도로변",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "00:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "23:59",
+      "FOD_WST_EMSN_MTHD": "종량제봉투에 넣어 지정된 요일에 배출",
+      "LAST_MDFCN_PNT": "2025-10-23 16:52:36",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+금",
+      "LF_WST_EMSN_END_TM": "08:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "환경과",
+      "MNG_DEPT_TELNO": "033-330-2337",
+      "MNG_NO": "202242810000400001",
+      "MNG_ZONE_NM": "없음",
+      "MNG_ZONE_TRGT_RGN_NM": "없음",
+      "OPN_ATMY_GRP_CD": "4281000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "목",
+      "RCYCL_EMSN_END_TM": "08:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 지정된 요일에 배출",
+      "SGG_NM": "평창군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "08:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "읍면사무소에서 대형폐기물 배출스티커 발급하여 부착 후 집앞 또는 거점장소에 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집앞 또는 거점수거지",
+      "UNCLLT_DAY": "일요일+연휴당일"
+    }
+  ]
+}

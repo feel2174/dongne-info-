@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "충청남도",
+      "DAT_CRTR_YMD": "2025-10-31",
+      "DAT_UPDT_PNT": "2025-12-15 16:20:32",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "청소차가다니는도로변",
+      "EMSN_PLC_TYPE": "기타",
+      "FOD_WST_EMSN_BGNG_TM": "19:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "종량제 및 납부칩",
+      "LAST_MDFCN_PNT": "2025-11-06 21:27:23",
+      "LF_WST_EMSN_BGNG_TM": "19:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "종량제",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "041-746-5533",
+      "MNG_NO": "202545400000400002",
+      "MNG_ZONE_NM": "논산시",
+      "MNG_ZONE_TRGT_RGN_NM": "논산시",
+      "OPN_ATMY_GRP_CD": "4540000",
+      "RCYCL_EMSN_BGNG_TM": "19:00",
+      "RCYCL_EMSN_DOW": "월+목",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "품목별",
+      "SGG_NM": "논산시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "품목별",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "지정장소",
+      "UNCLLT_DAY": "일요일"
+    }
+  ]
+}

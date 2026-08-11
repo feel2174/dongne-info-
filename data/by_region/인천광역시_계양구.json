@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "인천광역시",
+      "DAT_CRTR_YMD": "2026-05-27",
+      "DAT_UPDT_PNT": "2026-05-28 03:03:03",
+      "DAT_UPDT_SE": "U",
+      "EMSN_PLC": "집앞",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "03:00",
+      "FOD_WST_EMSN_MTHD": "음식물종량제봉투, 전용수거용기(납부필증), RFID종량제기기",
+      "LAST_MDFCN_PNT": "2026-05-27 13:56:21",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "03:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투에 넣어 배출",
+      "MNG_DEPT_NM": "청소행정과",
+      "MNG_DEPT_TELNO": "032-450-5443",
+      "MNG_NO": "202135500000400002",
+      "MNG_ZONE_NM": "1~4권역",
+      "MNG_ZONE_TRGT_RGN_NM": "계양구",
+      "OPN_ATMY_GRP_CD": "3550000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "03:00",
+      "RCYCL_EMSN_MTHD": "투명한 봉투에 담아 품목별 분리 배출",
+      "SGG_NM": "계양구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "03:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "종류별 전용봉투에 담아 배출",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집앞",
+      "UNCLLT_DAY": "1월1일(1일)+설날(2일)+3.1일절(1일)+근로자의날(1일)+석가탄신일(1일)+현충일(1일)+광복절(1일)+추석(2일)+개천절(1일)+한글날(1일)+성탄절(1일)"
+    }
+  ]
+}

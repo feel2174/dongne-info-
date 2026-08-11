@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "경기도",
+      "DAT_CRTR_YMD": "2025-01-01",
+      "DAT_UPDT_PNT": "2026-02-01 11:37:43",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "집 앞 또는 지정 장소",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "음식물종량제 규격봉투에 넣어 배출 또는 RFID 기기 통해 배출(공동주택의 경우)",
+      "LAST_MDFCN_PNT": "2025-10-17 10:21:36",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "소각용종량제 규격봉투에 넣어 배출",
+      "MNG_DEPT_NM": "자원순환과",
+      "MNG_DEPT_TELNO": "031-5189-6814",
+      "MNG_NO": "202555300000400001",
+      "MNG_ZONE_NM": "화성시",
+      "MNG_ZONE_TRGT_RGN_NM": "화성시",
+      "OPN_ATMY_GRP_CD": "5530000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "투명한 비닐봉투에 담거나 끈으로 묶어서 배출",
+      "SGG_NM": "화성시",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "20:00",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "05:00",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "품목별 분리수거하여 배출 또는 대형폐기물 접수",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "집 앞 또는 지정 장소",
+      "UNCLLT_DAY": "토, 일, 설 당일, 추석 당일"
+    }
+  ]
+}

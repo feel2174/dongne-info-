@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "강원특별자치도",
+      "DAT_CRTR_YMD": "2026-05-08",
+      "DAT_UPDT_PNT": "2026-05-09 21:27:56",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "수거장소",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "06:00",
+      "FOD_WST_EMSN_MTHD": "종량제봉투",
+      "LAST_MDFCN_PNT": "2026-05-08 10:41:27",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "06:00",
+      "LF_WST_EMSN_MTHD": "종량제봉투",
+      "MNG_DEPT_NM": "환경자원사업소",
+      "MNG_DEPT_TELNO": "033-450-5572",
+      "MNG_NO": "202643010000400001",
+      "MNG_ZONE_NM": "철원군관내",
+      "MNG_ZONE_TRGT_RGN_NM": "철원읍,김화읍,갈말읍,동송읍,서면,근남면",
+      "OPN_ATMY_GRP_CD": "4301000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "06:00",
+      "RCYCL_EMSN_MTHD": "재활용품 별 분리수거 후 배출",
+      "SGG_NM": "철원군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "-",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "-",
+      "UNCLLT_DAY": "주말"
+    }
+  ]
+}

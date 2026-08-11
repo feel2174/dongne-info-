@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "서울특별시",
+      "DAT_CRTR_YMD": "2026-05-11",
+      "DAT_UPDT_PNT": "2026-05-12 22:27:55",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "문전수거",
+      "EMSN_PLC_TYPE": "문전수거",
+      "FOD_WST_EMSN_BGNG_TM": "20:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "FOD_WST_EMSN_END_TM": "05:00",
+      "FOD_WST_EMSN_MTHD": "전용봉투 혹은 납부필증 부착 후 배출",
+      "LAST_MDFCN_PNT": "2026-05-11 19:57:04",
+      "LF_WST_EMSN_BGNG_TM": "20:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금",
+      "LF_WST_EMSN_END_TM": "05:00",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "강남구청 자원순환과",
+      "MNG_DEPT_TELNO": "02-3423-5973",
+      "MNG_NO": "202032200000400001",
+      "MNG_ZONE_NM": "강남구",
+      "MNG_ZONE_TRGT_RGN_NM": "신사동+압구정동+논현1동+논현2동+청담동+역삼1동+역삼2동+삼성2동+삼성1동+도곡1동+도곡2동+대치1동+대치2동+대치4동+개포1동+개포2동+개포3동+개포4동+일원1동+일원본동+수서동+세곡동",
+      "OPN_ATMY_GRP_CD": "3220000",
+      "RCYCL_EMSN_BGNG_TM": "20:00",
+      "RCYCL_EMSN_DOW": "일+월+화+수+목+금",
+      "RCYCL_EMSN_END_TM": "05:00",
+      "RCYCL_EMSN_MTHD": "전용그물망 혹은 투명봉투에 담아 배출",
+      "SGG_NM": "강남구",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "해당사항없음",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "해당사항없음",
+      "UNCLLT_DAY": "명절 및 임시공휴일"
+    }
+  ]
+}

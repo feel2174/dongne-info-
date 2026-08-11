@@ -1,0 +1,37 @@
+{
+  "waste_info": [
+    {
+      "CTPV_NM": "전북특별자치도",
+      "DAT_CRTR_YMD": "2021-09-02",
+      "DAT_UPDT_PNT": "2026-03-11 01:40:52",
+      "DAT_UPDT_SE": "I",
+      "EMSN_PLC": "생활쓰레기 거점지역",
+      "EMSN_PLC_TYPE": "거점수거",
+      "FOD_WST_EMSN_BGNG_TM": "00:00",
+      "FOD_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "FOD_WST_EMSN_END_TM": "2400",
+      "FOD_WST_EMSN_MTHD": "납부칩",
+      "LAST_MDFCN_PNT": "2021-09-02 11:31:31",
+      "LF_WST_EMSN_BGNG_TM": "00:00",
+      "LF_WST_EMSN_DOW": "일+월+화+수+목+금+토",
+      "LF_WST_EMSN_END_TM": "2400",
+      "LF_WST_EMSN_MTHD": "규격봉투에 넣어 지정된 요일에 배출",
+      "MNG_DEPT_NM": "환경수도과",
+      "MNG_DEPT_TELNO": "063-650-1725",
+      "MNG_NO": "202047710000400001",
+      "MNG_ZONE_NM": "순창군",
+      "MNG_ZONE_TRGT_RGN_NM": "순창군 전역",
+      "OPN_ATMY_GRP_CD": "4771000",
+      "RCYCL_EMSN_BGNG_TM": "00:00",
+      "RCYCL_EMSN_DOW": "목+월+일+화+수+금+토",
+      "RCYCL_EMSN_END_TM": "2400",
+      "RCYCL_EMSN_MTHD": "분리수거함",
+      "SGG_NM": "순창군",
+      "TMPRY_BULK_WASTE_EMSN_BGNG_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_END_TM": "",
+      "TMPRY_BULK_WASTE_EMSN_MTHD": "차량 반입",
+      "TMPRY_BULK_WASTE_EMSN_PLC": "쓰레기위생매립장",
+      "UNCLLT_DAY": "토요일, 일요일"
+    }
+  ]
+}

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync-data": "rm -rf data/by_region && cp -R ../local-data-pipeline/data/by_region data/by_region"
   },
   "dependencies": {
     "next": "16.3.0",
