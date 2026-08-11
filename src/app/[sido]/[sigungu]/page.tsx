@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllRegionSummaries, getRegionData } from "@/lib/regions";
-import DayBadges from "@/components/DayBadges";
 import BagStoreList from "@/components/BagStoreList";
+import WasteInfoList from "@/components/WasteInfoList";
 
 export async function generateStaticParams() {
   return getAllRegionSummaries().map((r) => ({
@@ -73,62 +73,8 @@ export default async function RegionPage({
             아직 등록된 배출 정보가 없습니다.
           </p>
         ) : (
-          <div className="mt-4 space-y-5">
-            {wasteInfo.map((w, i) => (
-              <div
-                key={i}
-                className="rounded-2xl border-2 border-yellow bg-white p-5 shadow-sm"
-              >
-                {w.MNG_ZONE_TRGT_RGN_NM && w.MNG_ZONE_TRGT_RGN_NM !== "없음" && (
-                  <p className="mb-3 inline-block rounded-full bg-yellow-light px-3 py-1 text-base font-bold text-yellow-dark">
-                    적용 구역: {w.MNG_ZONE_TRGT_RGN_NM}
-                  </p>
-                )}
-                <p className="text-base text-zinc-500">
-                  배출 방식: {w.EMSN_PLC_TYPE} ({w.EMSN_PLC})
-                </p>
-                <dl className="mt-4 space-y-3 text-lg">
-                  <div className="rounded-lg bg-green-light px-4 py-3">
-                    <dt className="font-bold text-green-dark">🟢 일반쓰레기</dt>
-                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
-                      <DayBadges dow={w.LF_WST_EMSN_DOW} />
-                      <span>
-                        {w.LF_WST_EMSN_BGNG_TM}~{w.LF_WST_EMSN_END_TM}
-                      </span>
-                    </dd>
-                  </div>
-                  <div className="rounded-lg bg-yellow-light px-4 py-3">
-                    <dt className="font-bold text-yellow-dark">🟡 음식물쓰레기</dt>
-                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
-                      <DayBadges dow={w.FOD_WST_EMSN_DOW} />
-                      <span>
-                        {w.FOD_WST_EMSN_BGNG_TM}~{w.FOD_WST_EMSN_END_TM}
-                      </span>
-                    </dd>
-                  </div>
-                  <div className="rounded-lg bg-green-light px-4 py-3">
-                    <dt className="font-bold text-green-dark">♻️ 재활용품</dt>
-                    <dd className="mt-2 flex flex-wrap items-center gap-2 text-zinc-800">
-                      <DayBadges dow={w.RCYCL_EMSN_DOW} />
-                      <span>
-                        {w.RCYCL_EMSN_BGNG_TM}~{w.RCYCL_EMSN_END_TM}
-                      </span>
-                    </dd>
-                  </div>
-                </dl>
-                {w.UNCLLT_DAY && (
-                  <p className="mt-4 text-base text-zinc-500">
-                    <span className="font-bold text-zinc-700">미수거일:</span> {w.UNCLLT_DAY}
-                  </p>
-                )}
-                {w.MNG_DEPT_NM && (
-                  <p className="mt-1 text-base text-zinc-500">
-                    <span className="font-bold text-zinc-700">문의:</span> {w.MNG_DEPT_NM}{" "}
-                    {w.MNG_DEPT_TELNO}
-                  </p>
-                )}
-              </div>
-            ))}
+          <div className="mt-4">
+            <WasteInfoList items={wasteInfo} />
           </div>
         )}
       </section>
