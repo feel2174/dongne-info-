@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllRegionSummaries, getRegionData } from "@/lib/regions";
+import { sidoAlias } from "@/lib/sidoAlias";
 import BagStoreList from "@/components/BagStoreList";
 import WasteInfoList from "@/components/WasteInfoList";
 
@@ -22,12 +23,28 @@ export async function generateMetadata({
   const data = getRegionData(sido, sigungu);
   if (!data) return { title: "지역 정보 없음" };
 
-  const title = `${sido} ${sigungu} 재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳`;
-  const description = `${sido} ${sigungu}의 생활쓰레기·음식물쓰레기·재활용품 배출 요일과 시간, 종량제봉투 판매소 위치를 한눈에 확인하세요.`;
+  const alias = sidoAlias(sido);
+  const aliasSuffix = alias ? `(${alias})` : "";
+
+  const title = `${sido}${aliasSuffix} ${sigungu} 재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳`;
+  const description = `${sido}${aliasSuffix} ${sigungu}의 생활쓰레기·음식물쓰레기·재활용품 배출 요일과 시간, 종량제봉투 판매소 위치를 한눈에 확인하세요.`;
+  const keywords = [
+    `${sido} ${sigungu} 종량제봉투`,
+    `${sido} ${sigungu} 종량제봉투 파는곳`,
+    `${sido} ${sigungu} 재활용 쓰레기 버리는 날`,
+    ...(alias
+      ? [
+          `${alias} ${sigungu} 종량제봉투`,
+          `${alias} ${sigungu} 종량제봉투 파는곳`,
+          `${alias} ${sigungu} 재활용 쓰레기 버리는 날`,
+        ]
+      : []),
+  ];
 
   return {
     title,
     description,
+    keywords,
     alternates: { canonical: `/${sido}/${sigungu}` },
     openGraph: { title, description, locale: "ko_KR", type: "website" },
   };
@@ -47,6 +64,7 @@ export default async function RegionPage({
   const wasteInfo = data.waste_info ?? [];
   const bagStores = data.bag_stores ?? [];
   const openBagStores = bagStores.filter((s) => s.영업상태명 === "영업");
+  const alias = sidoAlias(sido);
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
@@ -62,7 +80,7 @@ export default async function RegionPage({
           {sido} {sigungu}
         </h1>
         <p className="mt-1 text-lg text-green-light">
-          재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳
+          {alias ? `${alias} ${sigungu} ` : ""}재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳
         </p>
       </div>
 
