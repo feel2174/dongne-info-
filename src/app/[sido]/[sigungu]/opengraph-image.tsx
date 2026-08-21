@@ -1,6 +1,9 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
-export const size = { width: 1200, height: 630 };
+// 2x resolution (120:63 ratio) — vector-sourced, stays crisp when scaled up.
+export const size = { width: 2400, height: 1260 };
 export const contentType = "image/png";
 
 export default async function Image({
@@ -12,65 +15,110 @@ export default async function Image({
   const sido = decodeURIComponent(raw.sido);
   const sigungu = decodeURIComponent(raw.sigungu);
 
+  const [extrabold, medium] = await Promise.all([
+    readFile(join(process.cwd(), "assets/fonts/pt-extrabold.ttf")),
+    readFile(join(process.cwd(), "assets/fonts/pt-medium.ttf")),
+  ]);
+
   return new ImageResponse(
     (
       <div
         style={{
+          position: "relative",
           width: "100%",
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          alignItems: "center",
+          alignItems: "flex-start",
           justifyContent: "center",
-          background: "#16a34a",
-          position: "relative",
+          padding: "0 200px",
+          background: "#06271A",
+          backgroundImage:
+            "radial-gradient(circle at 80% 26%, rgba(34,197,94,0.50), transparent 52%), radial-gradient(circle at 12% 98%, rgba(250,204,21,0.18), transparent 46%)",
+          overflow: "hidden",
         }}
       >
         <div
           style={{
             position: "absolute",
-            top: 60,
-            left: 80,
-            width: 120,
-            height: 120,
-            borderRadius: "9999px",
-            background: "#facc15",
+            top: 150,
+            right: 130,
+            width: 620,
+            height: 620,
+            borderRadius: 620,
+            background:
+              "radial-gradient(circle at 38% 34%, rgba(134,239,172,0.50), rgba(22,163,74,0.05) 62%, transparent 72%)",
           }}
         />
         <div
           style={{
-            fontSize: 32,
-            fontWeight: 600,
-            color: "#fef9c3",
+            position: "relative",
             display: "flex",
+            width: 168,
+            height: 168,
+            borderRadius: 40,
+            alignItems: "center",
+            justifyContent: "center",
+            background: "linear-gradient(150deg, #22c55e 0%, #16a34a 100%)",
+            boxShadow: "0 44px 84px rgba(22,163,74,0.55), inset 0 3px 0 rgba(255,255,255,0.4)",
+            marginBottom: 44,
+            fontFamily: "Pretendard",
+            fontWeight: 800,
+            fontSize: 96,
+            color: "#FFFFFF",
+          }}
+        >
+          우
+        </div>
+        <div
+          style={{
+            display: "flex",
+            fontSize: 52,
+            fontFamily: "Pretendard",
+            fontWeight: 500,
+            color: "#BBF7D0",
+            marginBottom: 14,
           }}
         >
           {sido}
         </div>
         <div
           style={{
-            marginTop: 8,
-            fontSize: 96,
-            fontWeight: 800,
-            color: "white",
             display: "flex",
+            fontSize: 168,
+            fontFamily: "Pretendard",
+            fontWeight: 800,
+            color: "#FFFFFF",
+            letterSpacing: -5,
+            lineHeight: 1.02,
+            wordBreak: "keep-all",
           }}
         >
           {sigungu}
         </div>
         <div
           style={{
-            marginTop: 28,
-            fontSize: 36,
-            fontWeight: 600,
-            color: "#fef9c3",
             display: "flex",
+            marginTop: 34,
+            fontSize: 54,
+            fontFamily: "Pretendard",
+            fontWeight: 500,
+            color: "#A7C4B5",
+            maxWidth: 1600,
+            lineHeight: 1.35,
+            wordBreak: "keep-all",
           }}
         >
           재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳
         </div>
       </div>
     ),
-    { ...size }
+    {
+      ...size,
+      fonts: [
+        { name: "Pretendard", data: extrabold, weight: 800, style: "normal" },
+        { name: "Pretendard", data: medium, weight: 500, style: "normal" },
+      ],
+    }
   );
 }
