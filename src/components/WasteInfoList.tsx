@@ -134,13 +134,17 @@ export default function WasteInfoList({ items }: { items: WasteInfo[] }) {
                   {list.length}건 {isOpen ? "▲" : "▼"}
                 </span>
               </button>
-              {isOpen && (
-                <div className="space-y-4 border-t-2 border-yellow-light p-4">
-                  {list.map((w, i) => (
-                    <WasteCard key={i} w={w} />
-                  ))}
-                </div>
-              )}
+              {/* 접힌 상태여도 항상 DOM에 렌더 — 크롤러가 최초 HTML에서 배출 요일·시간을
+                  받을 수 있도록(패턴 B). 접기는 CSS(hidden)로만 처리한다. */}
+              <div
+                className={`space-y-4 border-t-2 border-yellow-light p-4${
+                  isOpen ? "" : " hidden"
+                }`}
+              >
+                {list.map((w, i) => (
+                  <WasteCard key={i} w={w} />
+                ))}
+              </div>
             </div>
           );
         })}

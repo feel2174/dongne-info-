@@ -111,25 +111,30 @@ export default function AddressGroupedList<T>({
                 </span>
               </button>
 
-              {isOpen && (
-                <ul className="divide-y-2 divide-yellow-light border-t-2 border-yellow-light">
-                  {list.map((item, i) => (
-                    <li key={i}>
-                      <a
-                        href={naverMapUrl(getAddress(item))}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block cursor-pointer px-4 py-3 hover:bg-yellow-light/40"
-                      >
-                        {renderItem(item)}
-                        <p className="mt-1 text-sm font-bold text-green-dark">
-                          네이버지도에서 보기 ↗
-                        </p>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
+              {/* 접혀 있어도 항상 DOM에 렌더한다 — 검색엔진 크롤러가 최초 HTML에서
+                  판매소명·주소를 받을 수 있어야 색인이 되기 때문(패턴 B). 접기는
+                  마운트 여부가 아니라 CSS(hidden)로만 처리한다. */}
+              <ul
+                className={`divide-y-2 divide-yellow-light border-t-2 border-yellow-light${
+                  isOpen ? "" : " hidden"
+                }`}
+              >
+                {list.map((item, i) => (
+                  <li key={i}>
+                    <a
+                      href={naverMapUrl(getAddress(item))}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block cursor-pointer px-4 py-3 hover:bg-yellow-light/40"
+                    >
+                      {renderItem(item)}
+                      <p className="mt-1 text-sm font-bold text-green-dark">
+                        네이버지도에서 보기 ↗
+                      </p>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           );
         })}

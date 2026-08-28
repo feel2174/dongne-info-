@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllRegionSummaries, getRegionData } from "@/lib/regions";
 import { sidoAlias } from "@/lib/sidoAlias";
+import { buildRegionSummary } from "@/lib/regionSummary";
 import BagStoreList from "@/components/BagStoreList";
 import WasteInfoList from "@/components/WasteInfoList";
 
@@ -66,8 +67,31 @@ export default async function RegionPage({
   const openBagStores = bagStores.filter((s) => s.영업상태명 === "영업");
   const alias = sidoAlias(sido);
 
+  const summary = buildRegionSummary({
+    sido,
+    sigungu,
+    displaySido: alias ?? sido,
+    bagStores,
+    openBagStores,
+    wasteInfo,
+  });
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: summary.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <nav className="mb-4 text-base font-medium text-zinc-500">
         <a href="/" className="text-green-dark hover:underline">
           우리동네 정보
@@ -83,6 +107,8 @@ export default async function RegionPage({
           {alias ? `${alias} ${sigungu} ` : ""}재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳
         </p>
       </div>
+
+      <p className="mt-6 text-lg leading-relaxed text-zinc-700">{summary.intro}</p>
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-green-dark">🗓️ 쓰레기 배출 정보</h2>
@@ -111,6 +137,21 @@ export default async function RegionPage({
         ) : (
           <BagStoreList stores={bagStores} />
         )}
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-green-dark">❓ 자주 묻는 질문</h2>
+        <div className="mt-4 space-y-3">
+          {summary.faqs.map((f) => (
+            <div
+              key={f.q}
+              className="rounded-2xl border-2 border-yellow bg-white p-5"
+            >
+              <h3 className="text-lg font-bold text-zinc-900">{f.q}</h3>
+              <p className="mt-2 text-base leading-relaxed text-zinc-700">{f.a}</p>
+            </div>
+          ))}
+        </div>
       </section>
     </main>
   );
