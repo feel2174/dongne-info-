@@ -3,5 +3,6 @@ Allow: /
 Disallow: /favicon.ico
 
 Sitemap: https://dongne-info.zucca100.com/sitemap.xml
+Sitemap: https://dongne-info.zucca100.com/rss.xml
 
 #DaumWebMasterTool:68e7dcf1c46ef9daa5b99c622f06334179a84595a91e8be0687f3ba90340c6d6:7FHGSqvkpp5m21kM8rOvAQ==

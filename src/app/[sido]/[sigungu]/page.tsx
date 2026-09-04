@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllRegionSummaries, getRegionData } from "@/lib/regions";
 import { sidoAlias } from "@/lib/sidoAlias";
 import { buildRegionSummary } from "@/lib/regionSummary";
+import { regionDescription, regionTitle } from "@/lib/site";
 import BagStoreList from "@/components/BagStoreList";
 import WasteInfoList from "@/components/WasteInfoList";
 
@@ -25,10 +26,9 @@ export async function generateMetadata({
   if (!data) return { title: "지역 정보 없음" };
 
   const alias = sidoAlias(sido);
-  const aliasSuffix = alias ? `(${alias})` : "";
 
-  const title = `${sido}${aliasSuffix} ${sigungu} 재활용 쓰레기 버리는 날 · 종량제봉투 파는 곳`;
-  const description = `${sido}${aliasSuffix} ${sigungu}의 생활쓰레기·음식물쓰레기·재활용품 배출 요일과 시간, 종량제봉투 판매소 위치를 한눈에 확인하세요.`;
+  const title = regionTitle(sido, sigungu);
+  const description = regionDescription(sido, sigungu);
   const keywords = [
     `${sido} ${sigungu} 종량제봉투`,
     `${sido} ${sigungu} 종량제봉투 파는곳`,

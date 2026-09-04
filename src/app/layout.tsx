@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { SITE_URL, SITE_NAME } from "@/lib/site";
+import {
+  SITE_URL,
+  SITE_NAME,
+  SITE_TITLE as TITLE,
+  SITE_DESCRIPTION as DESCRIPTION,
+} from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,15 +19,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const TITLE = `${SITE_NAME} | 재활용 쓰레기 버리는 날 · 종량제봉투`;
-const DESCRIPTION =
-  "전국 시군구별 재활용·음식물·일반쓰레기 배출 요일과 시간, 종량제봉투 판매소 위치를 확인하세요.";
-
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   metadataBase: new URL(SITE_URL),
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: { "application/rss+xml": [{ url: "/rss.xml", title: SITE_NAME }] },
+  },
   robots: {
     index: true,
     follow: true,
