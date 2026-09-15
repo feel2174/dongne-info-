@@ -7,6 +7,7 @@ import {
   SITE_TITLE as TITLE,
   SITE_DESCRIPTION as DESCRIPTION,
 } from "@/lib/site";
+import { SIBLINGS } from "@/components/SiblingSites";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -98,6 +99,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             데이터 출처: 행정안전부 생활쓰레기배출정보 조회서비스, 전국종량제봉투판매소표준데이터
             (공공데이터포털) · 지도: @svg-maps/south-korea (CC BY 4.0)
           </p>
+          <nav aria-label="우리동네 정보 사이트" className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-1">
+            {SIBLINGS.map((s) => (
+              <a
+                key={s.url}
+                href={s.url}
+                className="font-semibold text-zinc-600 underline underline-offset-2 hover:text-zinc-900"
+              >
+                {s.name}
+              </a>
+            ))}
+          </nav>
         </footer>
         <Analytics />
       </body>

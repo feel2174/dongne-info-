@@ -6,6 +6,7 @@ import { buildRegionSummary } from "@/lib/regionSummary";
 import { regionDescription, regionTitle } from "@/lib/site";
 import BagStoreList from "@/components/BagStoreList";
 import WasteInfoList from "@/components/WasteInfoList";
+import SiblingSites from "@/components/SiblingSites";
 
 export async function generateStaticParams() {
   return getAllRegionSummaries().map((r) => ({
@@ -153,6 +154,8 @@ export default async function RegionPage({
           ))}
         </div>
       </section>
+
+      <SiblingSites sido={sido} sigungu={sigungu} />
     </main>
   );
 }
