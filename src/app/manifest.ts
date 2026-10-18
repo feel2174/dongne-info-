@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import type { MetadataRoute } from "next";
 import { SITE_NAME } from "@/lib/site";
 
@@ -26,3 +28,4 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
   };
 }
+

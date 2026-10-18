@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import type { MetadataRoute } from "next";
 import { getAllRegionSummaries } from "@/lib/regions";
 import { SITE_URL as baseUrl } from "@/lib/site";
@@ -21,3 +23,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [home, ...regionPages];
 }
+
